@@ -1,0 +1,15 @@
+{
+  "name": "smidgen/madden",
+  "require": {
+    "monolog/monolog" : "1.*",
+    "twig/twig": "^2.0",
+    "ext-gd": "*",
+    "ext-exif": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "classes/"
+    }
+  }
+}
